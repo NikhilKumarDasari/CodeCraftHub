@@ -5,5 +5,5 @@ import { env } from "./config/env.js";
 connectDB();
 
 app.listen(env.PORT, () =>
-  console.log(`Server running on port ${env.PORT}`)
+  console.log(`ver running on port ${env.PORT}`)
 );
